@@ -1,0 +1,18 @@
+.SignUp {
+    text-align: center;
+}
+
+body {
+    min-height: 100vh;
+}
+
+form {
+    color: aliceblue;
+}
+
+#showcase {
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}

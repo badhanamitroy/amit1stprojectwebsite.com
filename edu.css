@@ -1,0 +1,24 @@
+#showcase {
+    background: linear-gradient(to top, rgba(128, 128, 128, 0.495), rgba(0, 0, 0, 0.807));
+    min-height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+table {
+    text-align: center;
+    width: 78%;
+    border-color: rgb(7, 7, 7);
+}
+
+table thead th {
+    padding: 10px 1px;
+    font-size: 25px;
+}
+
+table tbody tr td {
+    color: black;
+    padding: 20px 1px;
+    font-size: 25px;
+}

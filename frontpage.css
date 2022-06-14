@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/* Header Design starts */
+
+header {
+    background-color: rgb(1, 1, 75);
+    color: aliceblue;
+    width: 100%;
+    /* padding: 10px 0; */
+    overflow: hidden;
+    min-height: 80px;
+    border-bottom: 8px solid #dfa435;
+    position: fixed;
+    z-index: 10;
+    transition: all 0.1s ease-in-out;
+}
+
+p {
+    display: inline-block;
+    font-size: 25px;
+    margin: 26px auto;
+}
+
+div p span {
+    font-size: 28px;
+}
+
+div p span {
+    color: rgb(3, 24, 254);
+}
+
+.active {
+    color: rgb(156, 243, 243);
+}
+
+nav {
+    float: right;
+    margin: 26px auto;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    /* letter-spacing: 1px; */
+    margin-left: 12px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+/*Header Design ends */
+
+
+/* Showcase starts */
+
+#showcase {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.807), rgba(128, 128, 128, 0.495)), url(amitpukur.jpg);
+    min-height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+#showcase h1 {
+    /* margin-top: 20px; */
+    padding: 20px 0;
+    font-size: 40px;
+    color: aliceblue;
+}
+
+#showcase h5 {
+    font-size: 30px;
+    color: aliceblue;
+}
+
+#showcase .pd {
+    background-color: rgb(1, 1, 75);
+    color: antiquewhite;
+    width: 30%;
+    text-align: center;
+    margin: 67px 0;
+    padding: 37px;
+    font-size: 25px;
+    /* border-radius: 2 2 2 2; */
+}
+
+#showcase .pd a {
+    text-decoration: none;
+}
+
+
+/* Showcase ends */
+
+
+/* footer design Starts */
+
+footer {
+    border-top: #dfa435;
+    background-color: rgb(1, 1, 75);
+    width: 100%;
+    min-height: 50px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+    padding: 10px 0;
+    /* position: fixed; */
+}
+
+
+/* footer design ends */

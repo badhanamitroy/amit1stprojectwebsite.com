@@ -1,0 +1,32 @@
+#showcase {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.807), rgba(128, 128, 128, 0.495)), url(dextop/pag2.1.1.jpg);
+    min-height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.br {
+    color: yellow;
+}
+
+table {
+    align-items: center;
+    color: aliceblue;
+    font-size: 25px;
+    /* padding: 0px 0; */
+}
+
+.gap {
+    padding: 0 10px;
+}
+
+h6 {
+    padding: 30px 0;
+    font-size: 60px;
+    color: beige;
+}
+
+h6 span {
+    color: blue;
+}
